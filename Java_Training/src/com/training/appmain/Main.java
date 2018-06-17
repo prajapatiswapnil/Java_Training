@@ -223,10 +223,10 @@ public class Main {
         Flight nycTosf;
         nycTosf = new Flight();
         nycTosf.add1Passenger();
-        System.out.println(nycTosf.passangers); //prints 1 because methos is called prior to printing variable
+        System.out.println(nycTosf.passangers); //prints 1 because method is called prior to printing variable
 
         Flight dnvTolv = new Flight();
-        System.out.println(dnvTolv.passangers); //prints 0 because methos is not called prior to printing variable
+        System.out.println(dnvTolv.passangers); //prints 0 because method is not called prior to printing variable
 
         nycTosf.add1Passenger();
         dnvTolv.add1Passenger();
@@ -248,7 +248,7 @@ public class Main {
             System.out.println("Extra flight needed");
 
         //Field Encapsulation
-        //In most cases, a class’ fields should not be directly accessible outside of the class
+        //In most cases, a classï¿½ fields should not be directly accessible outside of the class
         //Helps to hide implementation details
         //Use methods to control field access
         //Accessors and Mutators
