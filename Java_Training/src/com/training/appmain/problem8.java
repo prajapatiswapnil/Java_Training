@@ -1,4 +1,4 @@
-package com.problems;
+package com.training.appmain;
 
 public class problem8 {
 
