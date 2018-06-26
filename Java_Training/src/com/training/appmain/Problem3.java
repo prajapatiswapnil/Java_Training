@@ -1,10 +1,5 @@
 package com.training.appmain;
 
-import java.io.Serializable;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
 public class Problem3 {
 
 	public static void main(String[] args) {
