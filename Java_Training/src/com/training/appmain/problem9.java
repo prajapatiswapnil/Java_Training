@@ -23,9 +23,9 @@ public class problem9 {
 
 				valueToCompare = arr[p][q];
 
-				for (int i = p - 1; i < 0; i--) {
+				for (int i = p - 1; i > 0; 	i--) {
 					if (valueToCompare < arr[i][q]) {
-						for (int j = 0; j < n; i--) {
+						for (int j = 0; j < n; i++) {
 
 							if (valueToCompare > arr[p][j]) {
 								rowMinimumcolMaximum = true;
