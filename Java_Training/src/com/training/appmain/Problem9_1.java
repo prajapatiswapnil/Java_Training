@@ -4,7 +4,10 @@ package com.training.appmain;
 public class Problem9_1 {
 
 	public static void main(String[] args) {
-		int[][] arr = { { 0, 1, 9, 3 }, { 7, 5, 8, 3 }, { 9, 2, 9, 4 }, { 4, 6, 7, 1 } };
+		int[][] arr = { { 0, 1, 9, 3 }
+		              , { 7, 5, 8, 3 }
+		              , { 9, 2, 9, 4 }
+		              , { 4, 6, 7, 1 } };
 
 		System.out.println(solution(arr));
 
