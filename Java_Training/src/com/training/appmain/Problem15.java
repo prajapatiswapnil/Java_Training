@@ -1,9 +1,5 @@
 package com.training.appmain;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
-
 public class Problem15 {
 
 	public static void main(String[] args) {
